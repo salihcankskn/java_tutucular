@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SayiTutucuActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edt_sayi_bir"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Sayı 1"
+        android:padding="10dp"
+        android:textSize="28sp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edt_sayi_iki"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Sayı 2"
+        android:padding="10dp"
+        android:textSize="28sp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+      <LinearLayout
+          android:layout_marginTop="20dp"
+          android:padding="10dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+
+          <Button
+              android:id="@+id/btn_topla"
+              android:text="+"
+              android:textSize="28sp"
+              android:textStyle="bold"
+              android:layout_marginRight="15dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"/>
+
+          <Button
+              android:id="@+id/btn_cikar"
+              android:text="-"
+              android:textSize="28sp"
+              android:textStyle="bold"
+              android:layout_marginRight="15dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"/>
+
+          <Button
+              android:id="@+id/btn_carp"
+              android:text="x"
+              android:layout_marginRight="15dp"
+              android:textSize="28sp"
+              android:textStyle="bold"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"/>
+
+          <Button
+              android:id="@+id/btn_bol"
+              android:text="/"
+              android:textSize="28sp"
+              android:textStyle="bold"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"/>
+
+   </LinearLayout>
+    
+    
+    <TextView
+        android:id="@+id/txt_sonuc"
+        android:textSize="32sp"
+        android:padding="10dp"
+        android:gravity="center_horizontal"
+        android:text="Sonuç"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
